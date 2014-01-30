@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
+		<title>Design Pattern</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -11,12 +11,11 @@
 		<script src="public/js/skel.min.js"></script>
 		<script src="public/js/skel-panels.min.js"></script>
 		<script src="public/js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
+			<link rel="stylesheet" href="public/css/skel-noscript.css" />
+			<link rel="stylesheet" href="public/css/style.css" />
+			<link rel="stylesheet" href="public/css/style-wide.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
-	<body>
+	<body> 
+            

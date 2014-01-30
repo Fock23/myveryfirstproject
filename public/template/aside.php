@@ -6,8 +6,8 @@
         <!-- Logo -->
         <div id="logo">
             <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-            <h1 id="title">Jane Doe</h1>
-            <span class="byline">Hyperspace Engineer</span>
+            <h1 id="title">Luca Margonar</h1>
+            <span class="byline">PHP 5 - Engineer</span>
         </div>
 
         <!-- Nav -->
@@ -36,3 +36,5 @@
     </div>
 
 </div>
+
+<div id="main">
