@@ -20,13 +20,10 @@ class ContactDAO {
     }
     
     public function saveRequest($_message, $_name, $_mail){
-        $obj = array(
-            "Name" => $_name,
-            "Mail" => $_mail,
-            "Message" => $_message
-        );
+        $data = time();
+        $sql = $this->db->insertRow("INSERT INTO contact VALUES (?, ?, ?, ?, ?)", array(null, $_name, $_mail, $data, $_message));
         
-        return $obj;
+        return true;
     }
     
 }
