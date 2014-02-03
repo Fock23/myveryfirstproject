@@ -1,18 +1,33 @@
-</div>
-<!--end main-->
-<!-- Footer -->
-<div id="footer">
 
-    <!-- Copyright -->
-    <div class="copyright">
-        <p>&copy; 2013 Jane Doe. All rights reserved.</p>
-        <ul class="menu">
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            <li>Images: <a href="http://ineedchemicalx.deviantart.com">Felicia Simion</a></li>
-        </ul>
-    </div>
-
-</div>
+	<footer class="group">
+		<div id="footer-left">
+			<p>Copyright <a href="#" class="green">www.1stwebdesigner.com</a> </br>
+			Designed by <a href="#" class="green">Michael Burns</a></p>
+		</div>
+			
+		<div id="footer-right">
+			<ul>
+                            <?php
+                                foreach ($menu as $k => $i){
+                                    echo '<li><a href="'.$i[1].'">'.$i[0].'</a></li>';
+                                }
+                            ?>
+                            <li><a href="public/page/login.php"><img src="public/images/security.png" width="20" /></a></li>
+			</ul>
+		</div>
+				
+		<a href="#header-wrap"><img src="public/images/back-top.png" alt="back-top" class="back-top" /></a>		
+	</footer>
+	
+	
+<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				generateNextPrev: true,	
+			});
+		});
+</script>
 
 </body>
 </html>

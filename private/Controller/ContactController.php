@@ -15,6 +15,5 @@ if(isset($_REQUEST['submitContact'])){
     $mail = $_POST['email'];
     $message = $_POST['message'];
    
-    $contactService->sendContactRequest($message);
-    
+    $contactService->sendContactRequest($message, $name, $mail);
 }

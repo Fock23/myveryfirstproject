@@ -61,7 +61,6 @@ class DB {
 
 }
 
-// andava ben e
     //USAGE 
     /*      
         Connecting to DataBase

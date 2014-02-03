@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 header('Cache-control: private'); // fix per Internet Explorer 6
 
@@ -23,19 +22,14 @@ switch ($lang) {
         $lang_file = 'it.php';
         break;
 
-    case 'de':
-        $lang_file = 'de.php';
+    case 'en':
+        $lang_file = 'en.php';
         break;
 
     default:
-        $browser = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
-        $lang_browser = substr($browser, 0, 2);
-        if($lang_browser == 'it' || $lang_browser == 'de'){
-            $lang_file = $lang_browser.'.php';
-        }else{
-            $lang_file = 'it.php';
-        }
+        $lang_file = 'it.php';
+        break;
 }
 
-include_once 'languages/' . $lang_file;
+include_once './private/Language/' . $lang_file;
 ?>
